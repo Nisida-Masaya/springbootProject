@@ -1,0 +1,4 @@
+2023-05-28 13:15:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: SQLステートメントに文法エラーがあります "CREATE TABLE USERS  USERNAME[*] VARCHAR(50) NOT NULL PRIMARY KEY, PASSWORD VARCHAR(500) NOT NULL  "
+Syntax error in SQL statement "CREATE TABLE USERS  USERNAME[*] VARCHAR(50) NOT NULL PRIMARY KEY, PASSWORD VARCHAR(500) NOT NULL  "; SQL statement:
+create table users  username VARCHAR(50) NOT NULL PRIMARY KEY, password VARCHAR(500) NOT NULL   [42000-200]
